@@ -3,7 +3,7 @@
   {
     "type": "secret",
     "letterNumber": "732646",
-    "description": "this is description 1",
+    "description": "this is Secret letter",
     "listData": [
       {
         "id": "1",
@@ -31,7 +31,7 @@
   {
     "type": "public",
     "letterNumber": "454612",
-    "description": "this is description 2",
+    "description": "this is public letter",
     "listData": [
       {
         "id": "4",

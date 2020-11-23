@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
+// import { Table, TableWrapper, Row, Rows, Col, Cols, Cell } from 'react-native-table-component'
 import axios from 'axios'
 import Header from '../components/Header'
 import Details from '../components/Details'
@@ -10,6 +11,10 @@ const Home = () => {
 
   useEffect(() => {
     getData()
+
+    // dataLetter.listData.map(item => console.log(Object.keys(item)))
+    // console.log(dataLetter.listData)
+
   }, [dataType])
 
   const getData = async () => {
@@ -18,7 +23,12 @@ const Home = () => {
 
       //dynamic: setDataType(tipe datanya)
 
-      const resultDataType = data.filter(item => item.type === dataType)
+      //using filter
+      // const resultDataType = data.filter(item => item.type === dataType)
+
+      //using find
+      const resultDataType = data.find(item => item.type === dataType)
+
       setDataLetter(resultDataType )
       console.log(resultDataType )
       
@@ -59,7 +69,7 @@ const Home = () => {
       </View>
 
       <Header dataLetter={dataLetter} />
-      <Details dataLetter={dataLetter} />
+      {/* <Details dataLetter={dataLetter} /> */}
       
     </View>
   )
