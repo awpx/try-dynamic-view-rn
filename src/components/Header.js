@@ -1,0 +1,13 @@
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+
+const Header = () => {
+  return (
+    <View>
+      <Text>this is Header</Text>
+    </View>
+  )
+}
+
+export default Header
+const styles = StyleSheet.create({})

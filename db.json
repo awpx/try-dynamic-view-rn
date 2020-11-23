@@ -1,0 +1,60 @@
+{
+  "data": [
+  {
+    "type": "secret",
+    "letterNumber": "732646",
+    "description": "this is description 1",
+    "listData": [
+      {
+        "id": "1",
+        "approved": "no",
+        "subject": "This is letter no 1",
+        "sender": "john",
+        "about": "nothing"
+      },
+      {
+        "id": "2",
+        "approved": "yes",
+        "subject": "This is letter no 2",
+        "sender": "joe",
+        "about": "something"
+      },
+      {
+        "id": "3",
+        "approved": "yes",
+        "subject": "This is letter no 3",
+        "sender": "mark",
+        "about": "everything"
+      }
+    ]
+  },
+  {
+    "type": "public",
+    "letterNumber": "454612",
+    "description": "this is description 2",
+    "listData": [
+      {
+        "id": "4",
+        "approved": "no",
+        "subject": "This is letter no 4",
+        "sender": "john",
+        "about": "nothing"
+      },
+      {
+        "id": "5",
+        "approved": "yes",
+        "subject": "This is letter no 5",
+        "sender": "joe",
+        "about": "nothing"
+      },
+      {
+        "id": "6",
+        "approved": "yes",
+        "subject": "This is letter no 6",
+        "sender": "mark",
+        "about": "nothing"
+      }
+    ]
+  }
+  ]
+}
