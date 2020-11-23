@@ -37,21 +37,21 @@
         "id": "4",
         "approved": "no",
         "subject": "This is letter no 4",
-        "sender": "john",
+        "sender": "will",
         "about": "nothing"
       },
       {
         "id": "5",
         "approved": "yes",
         "subject": "This is letter no 5",
-        "sender": "joe",
+        "sender": "smith",
         "about": "nothing"
       },
       {
         "id": "6",
         "approved": "yes",
         "subject": "This is letter no 6",
-        "sender": "mark",
+        "sender": "bob",
         "about": "nothing"
       }
     ]

@@ -18,7 +18,10 @@ const styles = StyleSheet.create({
   itemContainer: {
     flexDirection: 'row',
     marginBottom: 20,
-    
+    marginHorizontal: 10,
+    backgroundColor: 'white',
+    paddingVertical: 15,
+    borderRadius: 20,
   },
   desc: {
     flex: 1,

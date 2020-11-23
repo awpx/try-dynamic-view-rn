@@ -58,7 +58,7 @@ const Home = () => {
   //   }
   // }
   return (
-    <View>
+    <View style={{}}>
       <View style={{flexDirection: 'row', alignItems:'center', justifyContent: 'center',}}>
         <TouchableOpacity>
           <Text style={styles.btnType} onPress={() => setDataType('public')}>Public</Text>
@@ -69,7 +69,7 @@ const Home = () => {
       </View>
 
       <Header dataLetter={dataLetter} />
-      {/* <Details dataLetter={dataLetter} /> */}
+      <Details dataLetter={dataLetter} />
       
     </View>
   )
